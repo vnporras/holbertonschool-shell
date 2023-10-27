@@ -1,2 +1,2 @@
 #!/bin/bash
-find ls -lt | head -n 10
+find . -type f -exec ls -tr1 {} + | head
